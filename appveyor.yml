@@ -7,7 +7,7 @@ build_script:
   - ps: .\build_script.ps1
 
 artifacts:
-  - path: CFGEditorInstaller.exe
+  - path: bin\Release\net451\ICFGEditor.exe
 
 deploy:
   provider: FTP
