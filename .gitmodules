@@ -1,0 +1,3 @@
+[submodule "CFGEditorPlusPlus"]
+	path = CFGEditorPlusPlus
+	url = https://github.com/Atari2/CFGEditorPlusPlus
