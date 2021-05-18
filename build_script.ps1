@@ -3,7 +3,7 @@ Set-Location CFGEditorPlusPlus
 Start-Process -Wait -NoNewWindow .\build_script.bat
 py .\zip_script.py
 Set-Location ..
-Copy CFGEditorPlusPlus\CFGEditor.zip Resources\CFGEditor.zip
+Copy CFGEditorPlusPlus\CFGEditor.zip Properties\CFGEditor.zip
 
 # we then build the installer
 dotnet restore
