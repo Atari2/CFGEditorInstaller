@@ -4,7 +4,7 @@ install:
   - git submodule update --init --recursive
 
 build_script:
-  - ps: .\build_script.ps1
+  - cmd: .\build_script.bat
 
 artifacts:
   - path: bin\Release\net451\ICFGEditor.exe
