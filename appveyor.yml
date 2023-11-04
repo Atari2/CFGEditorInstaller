@@ -7,7 +7,7 @@ build_script:
   - cmd: .\build_script.bat
 
 artifacts:
-  - path: bin\x64\Release\net451\ICFGEditor.exe
+  - path: bin\Release\net451\ICFGEditor.exe
 
 environment:
   ATARISMWC_AUTH_KEY:
