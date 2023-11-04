@@ -1,5 +1,5 @@
 cd CFGEditorPlusPlus
-call build_script.bat
+pwsh -ExecutionPolicy Bypass -File .\build_script.ps1
 py .\zip_script.py
 cd ..
 copy CFGEditorPlusPlus\CFGEditor.zip Properties\CFGEditor.zip
